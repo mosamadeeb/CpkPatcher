@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\eternity_common">
+      <UniqueIdentifier>{f5c23b28-1bf7-4406-8a4b-fd682ea77569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\eternity_common\tinyxml">
+      <UniqueIdentifier>{f90f8173-bc05-4744-9d7c-b45615b31e87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\eternity_common\vs">
+      <UniqueIdentifier>{8cd52bbf-f127-4538-8fd3-6d4a445d4921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\argparse">
+      <UniqueIdentifier>{150ea63f-15fc-41b3-9795-0d325a824e25}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CpkPatcher.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CpkPatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eternity_common\tinyxml\tinystr.cpp">
+      <Filter>Header Files\eternity_common\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="eternity_common\tinyxml\tinyxml.cpp">
+      <Filter>Header Files\eternity_common\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="eternity_common\tinyxml\tinyxmlerror.cpp">
+      <Filter>Header Files\eternity_common\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="eternity_common\tinyxml\tinyxmlparser.cpp">
+      <Filter>Header Files\eternity_common\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="eternity_common\BaseFile.cpp">
+      <Filter>Header Files\eternity_common</Filter>
+    </ClCompile>
+    <ClCompile Include="eternity_common\BitStream.cpp">
+      <Filter>Header Files\eternity_common</Filter>
+    </ClCompile>
+    <ClCompile Include="eternity_common\CpkFile.cpp">
+      <Filter>Header Files\eternity_common</Filter>
+    </ClCompile>
+    <ClCompile Include="eternity_common\CriFs.cpp">
+      <Filter>Header Files\eternity_common</Filter>
+    </ClCompile>
+    <ClCompile Include="eternity_common\CrilaylaFixedBitStream.cpp">
+      <Filter>Header Files\eternity_common</Filter>
+    </ClCompile>
+    <ClCompile Include="eternity_common\FileStream.cpp">
+      <Filter>Header Files\eternity_common</Filter>
+    </ClCompile>
+    <ClCompile Include="eternity_common\FixedBitStream.cpp">
+      <Filter>Header Files\eternity_common</Filter>
+    </ClCompile>
+    <ClCompile Include="eternity_common\FixedMemoryStream.cpp">
+      <Filter>Header Files\eternity_common</Filter>
+    </ClCompile>
+    <ClCompile Include="eternity_common\MemoryStream.cpp">
+      <Filter>Header Files\eternity_common</Filter>
+    </ClCompile>
+    <ClCompile Include="eternity_common\Stream.cpp">
+      <Filter>Header Files\eternity_common</Filter>
+    </ClCompile>
+    <ClCompile Include="eternity_common\UtfFile.cpp">
+      <Filter>Header Files\eternity_common</Filter>
+    </ClCompile>
+    <ClCompile Include="eternity_common\Utils.cpp">
+      <Filter>Header Files\eternity_common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="argparse\argparse.hpp">
+      <Filter>Header Files\argparse</Filter>
+    </ClInclude>
+    <ClInclude Include="eternity_common\vs\dirent.h">
+      <Filter>Header Files\eternity_common\vs</Filter>
+    </ClInclude>
+    <ClInclude Include="eternity_common\tinyxml\tinystr.h">
+      <Filter>Header Files\eternity_common\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="eternity_common\tinyxml\tinyxml.h">
+      <Filter>Header Files\eternity_common\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="eternity_common\AwbFile.h">
+      <Filter>Header Files\eternity_common</Filter>
+    </ClInclude>
+    <ClInclude Include="eternity_common\BaseFile.h">
+      <Filter>Header Files\eternity_common</Filter>
+    </ClInclude>
+    <ClInclude Include="eternity_common\BitStream.h">
+      <Filter>Header Files\eternity_common</Filter>
+    </ClInclude>
+    <ClInclude Include="eternity_common\common.h">
+      <Filter>Header Files\eternity_common</Filter>
+    </ClInclude>
+    <ClInclude Include="eternity_common\CpkFile.h">
+      <Filter>Header Files\eternity_common</Filter>
+    </ClInclude>
+    <ClInclude Include="eternity_common\CriFs.h">
+      <Filter>Header Files\eternity_common</Filter>
+    </ClInclude>
+    <ClInclude Include="eternity_common\CrilaylaFixedBitStream.h">
+      <Filter>Header Files\eternity_common</Filter>
+    </ClInclude>
+    <ClInclude Include="eternity_common\debug.h">
+      <Filter>Header Files\eternity_common</Filter>
+    </ClInclude>
+    <ClInclude Include="eternity_common\Event.h">
+      <Filter>Header Files\eternity_common</Filter>
+    </ClInclude>
+    <ClInclude Include="eternity_common\FileStream.h">
+      <Filter>Header Files\eternity_common</Filter>
+    </ClInclude>
+    <ClInclude Include="eternity_common\FixedBitStream.h">
+      <Filter>Header Files\eternity_common</Filter>
+    </ClInclude>
+    <ClInclude Include="eternity_common\FixedMemoryStream.h">
+      <Filter>Header Files\eternity_common</Filter>
+    </ClInclude>
+    <ClInclude Include="eternity_common\MemoryStream.h">
+      <Filter>Header Files\eternity_common</Filter>
+    </ClInclude>
+    <ClInclude Include="eternity_common\Stream.h">
+      <Filter>Header Files\eternity_common</Filter>
+    </ClInclude>
+    <ClInclude Include="eternity_common\UtfFile.h">
+      <Filter>Header Files\eternity_common</Filter>
+    </ClInclude>
+    <ClInclude Include="eternity_common\Utils.h">
+      <Filter>Header Files\eternity_common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
