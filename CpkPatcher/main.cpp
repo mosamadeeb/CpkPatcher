@@ -8,9 +8,9 @@
 
 int main(int argc, char* argv[])
 {
-    argparse::ArgumentParser program("cpk_patcher", VERSION);
+    argparse::ArgumentParser program("CpkPatcher", VERSION);
 
-    program.add_description("cpk_patcher " VERSION "\nPatches a CPK by updating file data without repacking the entire CPK");
+    program.add_description("CpkPatcher " VERSION "\nPatches a CPK by updating file data without repacking the entire CPK");
 
     program.add_argument("source_cpk")
         .help("Path to the source cpk");
